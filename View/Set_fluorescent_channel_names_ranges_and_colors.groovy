@@ -13,19 +13,19 @@ setImageType('FLUORESCENCE')
 // You can replace the names with your stainings if you want
 
 // Channel names in order
-def names = ['DAPI', 'FITC', 'CY3', 'CY5']
+def names = ['DAPI', 'Nf-H', 'B-App', 'MBP']
 
 // Channel minimum display values, in order
-def mins = [ 0, 0, 0, 0 ]
+def mins = [ 0, 65, 15, 20 ]
 
 // Channel maximum display values, in order
-def maxs = [ 8000, 7500, 6000, 820 ]
+def maxs = [ 170, 180, 70, 70 ]
 
 // Channel colors: Make sure that the number of colors in this list
 // matches the number of channels
-def colors = [ getColorRGB( 0, 128, 255 ),
-               getColorRGB( 0, 255, 128 ),
-               getColorRGB( 128, 255, 0 ),
+def colors = [ getColorRGB( 0, 0, 255 ),
+               getColorRGB( 0, 255, 0 ),
+               getColorRGB( 255, 0, 0 ),
                getColorRGB( 255, 0, 128 )
              ]
 

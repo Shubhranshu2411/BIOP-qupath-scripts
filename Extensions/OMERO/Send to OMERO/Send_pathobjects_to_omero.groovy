@@ -65,7 +65,7 @@ import qupath.lib.scripting.QP
  
 
 // set variables
-boolean deleteROI = false // if you want to delete ROIs on OMERO
+boolean deleteROI = true // if you want to delete ROIs on OMERO
 
 
 /**

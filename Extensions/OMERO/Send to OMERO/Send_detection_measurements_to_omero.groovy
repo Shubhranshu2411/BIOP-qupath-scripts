@@ -75,6 +75,9 @@ import qupath.lib.gui.measure.ObservableMeasurementTableData;
  * attached to the current opened image.
  * 
  **/
+ 
+// set variables
+boolean deleteTable = false // if you want to delete Tables on OMERO
 
 // get the current displayed image on QuPath
 ImageServer<?> server = QP.getCurrentServer()

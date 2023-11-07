@@ -28,7 +28,7 @@ def deleteExisting = true
 
 // The local project path that has the annotations. 
 // Image name in the local project must match the ones in the OMERO project
-def localProjectPath = "D:\\Remy\\QuPath\\Migration Local-OMERO\\LocalProject\\project.qpproj"
+def localProjectPath = "D:\\ClientStudy\\SudoTherapeutics\\FZHIN1_1317\\IF_SpinalCord\\FZHIN1_1317_Iba1_Analysis_v1\\project.qpproj"
 
 
 /*************************************************************
